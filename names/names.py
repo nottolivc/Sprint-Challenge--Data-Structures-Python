@@ -74,7 +74,7 @@ duplicates = []  # Return the list of duplicates in this data structure
 # Replace the nested for loops below with your improvements
 # add BST
 
-search_tree = BSTNode("name")
+search_tree = BSTNode(names_1[0])
 
 for name in names_1:
     search_tree.insert(name)
@@ -83,6 +83,7 @@ for name in names_2:
         duplicates.append(name)
 
 end_time = time.time()
+print()
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
 print (f"runtime: {end_time - start_time} seconds")
 
