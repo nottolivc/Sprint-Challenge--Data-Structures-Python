@@ -43,7 +43,7 @@ class LinkedList:
             return
         if self.head.next_node == None:
             return
-        # create a sotre for the head as current node
+        # create a store for the head as current node
         current_node = self.head
         # init previous node to none
         prev_node = None
